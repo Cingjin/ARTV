@@ -10,11 +10,16 @@
 		966FAADE23D7E22800C96CA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966FAADD23D7E22800C96CA2 /* AppDelegate.swift */; };
 		966FAAE023D7E22800C96CA2 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 966FAADF23D7E22800C96CA2 /* art.scnassets */; };
 		966FAAE223D7E22800C96CA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966FAAE123D7E22800C96CA2 /* ViewController.swift */; };
-		966FAAE523D7E22800C96CA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 966FAAE323D7E22800C96CA2 /* Main.storyboard */; };
 		966FAAE723D7E22900C96CA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 966FAAE623D7E22900C96CA2 /* Assets.xcassets */; };
 		966FAAEA23D7E22900C96CA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 966FAAE823D7E22900C96CA2 /* LaunchScreen.storyboard */; };
 		966FAAF523D7E22900C96CA2 /* ARTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966FAAF423D7E22900C96CA2 /* ARTVTests.swift */; };
 		966FAB0023D7E22900C96CA2 /* ARTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966FAAFF23D7E22900C96CA2 /* ARTVUITests.swift */; };
+		966FAB1623D7EAC500C96CA2 /* CJBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966FAB1523D7EAC500C96CA2 /* CJBaseViewController.swift */; };
+		966FAB1923D7EB2200C96CA2 /* CJHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966FAB1823D7EB2200C96CA2 /* CJHomeViewController.swift */; };
+		966FAB2123D81EB300C96CA2 /* CJHeaderConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966FAB2023D81EB300C96CA2 /* CJHeaderConfig.swift */; };
+		966FAB2523D81EF200C96CA2 /* UIDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966FAB2323D81EF200C96CA2 /* UIDevice+Extension.swift */; };
+		966FAB2623D81EF200C96CA2 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966FAB2423D81EF200C96CA2 /* UIColor+Extension.swift */; };
+		966FAB2923D8259300C96CA2 /* CJSetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966FAB2823D8259300C96CA2 /* CJSetViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		966FAADA23D7E22800C96CA2 /* ARTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		966FAADA23D7E22800C96CA2 /* AR电视.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR电视.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		966FAADD23D7E22800C96CA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		966FAADF23D7E22800C96CA2 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		966FAAE123D7E22800C96CA2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		966FAAE423D7E22800C96CA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		966FAAE623D7E22900C96CA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		966FAAE923D7E22900C96CA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		966FAAEB23D7E22900C96CA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +53,12 @@
 		966FAAFB23D7E22900C96CA2 /* ARTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		966FAAFF23D7E22900C96CA2 /* ARTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARTVUITests.swift; sourceTree = "<group>"; };
 		966FAB0123D7E22900C96CA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		966FAB1523D7EAC500C96CA2 /* CJBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CJBaseViewController.swift; sourceTree = "<group>"; };
+		966FAB1823D7EB2200C96CA2 /* CJHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CJHomeViewController.swift; sourceTree = "<group>"; };
+		966FAB2023D81EB300C96CA2 /* CJHeaderConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJHeaderConfig.swift; sourceTree = "<group>"; };
+		966FAB2323D81EF200C96CA2 /* UIDevice+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extension.swift"; sourceTree = "<group>"; };
+		966FAB2423D81EF200C96CA2 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		966FAB2823D8259300C96CA2 /* CJSetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CJSetViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +99,7 @@
 		966FAADB23D7E22800C96CA2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				966FAADA23D7E22800C96CA2 /* ARTV.app */,
+				966FAADA23D7E22800C96CA2 /* AR电视.app */,
 				966FAAF023D7E22900C96CA2 /* ARTVTests.xctest */,
 				966FAAFB23D7E22900C96CA2 /* ARTVUITests.xctest */,
 			);
@@ -99,10 +109,16 @@
 		966FAADC23D7E22800C96CA2 /* ARTV */ = {
 			isa = PBXGroup;
 			children = (
-				966FAADD23D7E22800C96CA2 /* AppDelegate.swift */,
-				966FAADF23D7E22800C96CA2 /* art.scnassets */,
-				966FAAE123D7E22800C96CA2 /* ViewController.swift */,
-				966FAAE323D7E22800C96CA2 /* Main.storyboard */,
+				966FAB1A23D7F37900C96CA2 /* Delegate */,
+				966FAB1123D7E9D500C96CA2 /* AppDelegate */,
+				966FAB0F23D7E9B000C96CA2 /* Controller */,
+				966FAB0D23D7E9B000C96CA2 /* Model */,
+				966FAB1023D7E9B000C96CA2 /* ViewModel */,
+				966FAB0E23D7E9B000C96CA2 /* Resources */,
+				966FAB1323D7EA1300C96CA2 /* Nodes */,
+				966FAB1223D7EA0600C96CA2 /* View */,
+				966FAB1F23D81E8900C96CA2 /* Header */,
+				966FAB2223D81EF200C96CA2 /* Categorays */,
 				966FAAE623D7E22900C96CA2 /* Assets.xcassets */,
 				966FAAE823D7E22900C96CA2 /* LaunchScreen.storyboard */,
 				966FAAEB23D7E22900C96CA2 /* Info.plist */,
@@ -128,6 +144,109 @@
 			path = ARTVUITests;
 			sourceTree = "<group>";
 		};
+		966FAB0D23D7E9B000C96CA2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		966FAB0E23D7E9B000C96CA2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				966FAADF23D7E22800C96CA2 /* art.scnassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		966FAB0F23D7E9B000C96CA2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				966FAB2723D8256900C96CA2 /* SetViewController */,
+				966FAB1723D7EAE000C96CA2 /* HomeViewController */,
+				966FAB1423D7EAA100C96CA2 /* BaseViewController */,
+				966FAAE123D7E22800C96CA2 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		966FAB1023D7E9B000C96CA2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		966FAB1123D7E9D500C96CA2 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				966FAADD23D7E22800C96CA2 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		966FAB1223D7EA0600C96CA2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		966FAB1323D7EA1300C96CA2 /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Nodes;
+			sourceTree = "<group>";
+		};
+		966FAB1423D7EAA100C96CA2 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				966FAB1523D7EAC500C96CA2 /* CJBaseViewController.swift */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		966FAB1723D7EAE000C96CA2 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				966FAB1823D7EB2200C96CA2 /* CJHomeViewController.swift */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		966FAB1A23D7F37900C96CA2 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		966FAB1F23D81E8900C96CA2 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				966FAB2023D81EB300C96CA2 /* CJHeaderConfig.swift */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		966FAB2223D81EF200C96CA2 /* Categorays */ = {
+			isa = PBXGroup;
+			children = (
+				966FAB2323D81EF200C96CA2 /* UIDevice+Extension.swift */,
+				966FAB2423D81EF200C96CA2 /* UIColor+Extension.swift */,
+			);
+			path = Categorays;
+			sourceTree = "<group>";
+		};
+		966FAB2723D8256900C96CA2 /* SetViewController */ = {
+			isa = PBXGroup;
+			children = (
+				966FAB2823D8259300C96CA2 /* CJSetViewController.swift */,
+			);
+			path = SetViewController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,7 +264,7 @@
 			);
 			name = ARTV;
 			productName = ARTV;
-			productReference = 966FAADA23D7E22800C96CA2 /* ARTV.app */;
+			productReference = 966FAADA23D7E22800C96CA2 /* AR电视.app */;
 			productType = "com.apple.product-type.application";
 		};
 		966FAAEF23D7E22900C96CA2 /* ARTVTests */ = {
@@ -190,6 +309,7 @@
 		966FAAD223D7E22800C96CA2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = CJ;
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = com.Cingjin;
@@ -235,7 +355,6 @@
 				966FAAE023D7E22800C96CA2 /* art.scnassets in Resources */,
 				966FAAEA23D7E22900C96CA2 /* LaunchScreen.storyboard in Resources */,
 				966FAAE723D7E22900C96CA2 /* Assets.xcassets in Resources */,
-				966FAAE523D7E22800C96CA2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +379,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				966FAB2623D81EF200C96CA2 /* UIColor+Extension.swift in Sources */,
+				966FAB1623D7EAC500C96CA2 /* CJBaseViewController.swift in Sources */,
+				966FAB2523D81EF200C96CA2 /* UIDevice+Extension.swift in Sources */,
+				966FAB2123D81EB300C96CA2 /* CJHeaderConfig.swift in Sources */,
+				966FAB2923D8259300C96CA2 /* CJSetViewController.swift in Sources */,
 				966FAAE223D7E22800C96CA2 /* ViewController.swift in Sources */,
+				966FAB1923D7EB2200C96CA2 /* CJHomeViewController.swift in Sources */,
 				966FAADE23D7E22800C96CA2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,14 +422,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		966FAAE323D7E22800C96CA2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				966FAAE423D7E22800C96CA2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		966FAAE823D7E22900C96CA2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -435,14 +552,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C84Z46TM59;
+				DEVELOPMENT_TEAM = 3KTP58KSW9;
 				INFOPLIST_FILE = ARTV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.CingjinLanScan.ARTV;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "AR电视";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -453,14 +570,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C84Z46TM59;
+				DEVELOPMENT_TEAM = 3KTP58KSW9;
 				INFOPLIST_FILE = ARTV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.CingjinLanScan.ARTV;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "AR电视";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
